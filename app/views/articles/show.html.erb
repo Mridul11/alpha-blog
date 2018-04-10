@@ -1,0 +1,7 @@
+<ul>
+    <h3><%= @article.title %></h3>
+    <p><%= @article.description %></p>
+</ul>
+
+<%= link_to "Back To Home", articles_path %>
+<%= link_to "Edit Article", edit_article_path(@article) %>
